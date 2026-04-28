@@ -10,19 +10,19 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "nhập key",
         Description = "",
         KeyLink = "",
-        Keys = {"1234"},
+        Keys = {"hungminecraft"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "The key is incorrect",
-       CopyKeyLink = "Copied to Clipboard"
+        CorrectKey = "Đang chạy Script...",
+       Incorrectkey = "Key sai rồi",
+       CopyKeyLink = "đã sao chép vào Clipboard"
       }
     }
   })
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=86718689170693",
-       Size = {60, 60},
+       Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
